@@ -158,7 +158,7 @@ function jobs(arr) {
         </div>
         <div class="card-body">
           <h5 class="card-title">${ele.header}</h5>
-          <a  id="ap" href="${ele.url}"   target="_blank" class="btn btn-primary m-3">read more</a>
+          <a  id="ap" href="${ele.url}?val=${ele.header}"  class="btn btn-primary m-3">read more</a>
         </div>
       </div>`
         )
